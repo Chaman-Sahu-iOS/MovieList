@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>New item</key>
+			<string>http://api.themoviedb.org/3/search/movie?api_key=7e588fae3312be4835d4fcf73918a95f&amp;query=a%20&amp;page=01</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
